@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        CSS TASK-2
+    </title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:rgb(112, 217, 221);
+}
+
+li a {
+  display: block;
+  color:blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color:rgb(246, 123, 23);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Vertical navigation bar</h1>
+
+<ul>
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#">Java</a></li>
+  <li><a href="#">CSS</a></li>
+  <li><a href="#">HTML</a></li>
+  <li><a href="#">Bootstrap</a></li>
+</ul>
+
+
+
+</body>
+</html>
+
+

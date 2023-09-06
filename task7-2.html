@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS TASK2</title>
+        <style>
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width:500px;
+  background-color: #a9a6a6;
+}
+
+li {
+  float: left;
+  border-right:1px solid blue;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:#4e4c4c ;
+  color:white;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Horizontal naviagation bar</h1>
+
+
+<ul>
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">CSS</a></li>
+    <li ><a href="#">HTML</a></li>
+  </ul>
+  
+    </body>
+</html>
